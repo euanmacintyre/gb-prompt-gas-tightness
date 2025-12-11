@@ -60,3 +60,13 @@ gb-prompt-gas-tightness/
 │   └── processed/               # (git-ignored) daily_panel.parquet, etc.
 ├── reports/                     
 └── 01_connect_and_pull_one_series.ipynb  # Dev notebook
+
+## Planned extensions
+
+This is an ongoing side project and I expect to extend it over time. Ideas on the roadmap:
+
+- Add more MIPI fundamentals: NTS supply breakdown, storage withdrawal/injection, interconnector flows.
+- Calibrate the tightness score against NBP day-ahead prices or imbalance cash-out prices.
+- Add simple backtests and visualisations of “tight” vs “loose” days.
+- Wrap the latest report into a small web dashboard (e.g. FastAPI + Plotly or Streamlit).
+- Improve packaging (tests, `requirements.txt`, maybe a Dockerfile) so it’s easier to run elsewhere.
