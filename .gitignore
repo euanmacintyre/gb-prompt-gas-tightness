@@ -1,0 +1,29 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# IDE / editor
+.vscode/
+.DS_Store
+
+# Data (local only)
+data/raw/
+data/processed/
+
+# Reports (generated outputs)
+reports/.ipynb_checkpoints/
+
+# Logs / misc
+*.log
